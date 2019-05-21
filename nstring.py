@@ -1,5 +1,5 @@
 a=int(input());
-b=str(input());
+b="Hello"
 for i in range(0,a):
     print(b)
     
