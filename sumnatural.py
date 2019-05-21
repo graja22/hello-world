@@ -1,6 +1,9 @@
 a=int(input())
 b=a*(a+1)/2
-c=round(b)
-print(c)
+if b is float:
+    c=round(b)
+    print(c)
+else:
+    print(int(b))
 
     
