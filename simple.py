@@ -6,4 +6,4 @@ elif c < 0:
 elif c==0:
     print("Zero")
 else:
-    print("Invaid input")
+    print("Invalid input")
