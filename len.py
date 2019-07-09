@@ -1,8 +1,8 @@
-a=input();
-if a is int:
-    b=len(str(a))
-    print(b)
+d=input();
+if d is int:
+    e=len(str(d))
+    print(e)
 else:
-    b=int(a)
-    c=len(str(b))
-    print(c)
+    e=int(d)
+    f=len(str(e))
+    print(f)
