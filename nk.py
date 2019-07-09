@@ -1,4 +1,4 @@
-c = int(input())
+c=int(input())
 d=int(input())
 arr = []
 for i in range(c):
