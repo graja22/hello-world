@@ -1,12 +1,12 @@
-a=int(input())
-b=a
-c=0
-d=0
-while(a>0):
-   c=a%10
-   a=a//10
-   d+=c*c*c
-if b==d:
+num1=int(input())
+num2=num1
+num3=0
+num4=0
+while(num1>0):
+   num3=num1%10
+   num1=num1//10
+   num4+=num3*num3*num3
+if num2==num4:
     print("yes")
 else:
     print("no")
