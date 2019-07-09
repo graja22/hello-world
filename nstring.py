@@ -1,7 +1,7 @@
-a=int(input());
-b="Hello"
-for i in range(0,a):
-    print(b)
+c=int(input());
+d="Hello"
+for i in range(0,c):
+    print(d)
     
     
 
