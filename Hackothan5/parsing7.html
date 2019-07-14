@@ -12,11 +12,14 @@
 <script>
 var expected = {foo:6, bar: 5};
 var actual = {foo:5, bar: 6}
+var test={name:"my test"}
 
 
 function assertObjectsEqual(actual, expected, testName){
-    // your code here
+    
     let flag=0;
+    // v=Object.values(test)
+
     for(var key in actual){
  
             if(actual[key]==expected[key]){
@@ -27,8 +30,7 @@ function assertObjectsEqual(actual, expected, testName){
     if(flag==2){
         console.log("Passed")
     }else{
-        
-        console.log('Failed [my test] Expected {"foo":6,"bar":5}, but got {"foo":5,"bar":6}')
+        console.log("Failed "+"["+ Object.values(test)+"]"+"Expected"+JSON.stringify(expected)+"But got"+JSON.stringify(actual))
     }
        
     }
@@ -37,6 +39,8 @@ function assertObjectsEqual(actual, expected, testName){
 
 </script>
 </html>
+
+   
 
    
 
