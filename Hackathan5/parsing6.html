@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>
+        Parsing
+    </title>
+</head>
+<body>
+    <p id="new">
+
+    </p>
+</body>
+<script>
+var array = [[ ["firstName", "Vasanth"], ["lastName", "Raja"], ["age", 24], ["role", "JSWizard"]],[["firstName", "Sri"], ["lastName", "Devi"], ["age", 28], ["role", "Coder"]]];
+function transformEmployeeData(arr) {
+    var tranformEmployeeList = [];
+    l=arr.length;
+    for(i=0;i<l;i++){
+        let s=arr[i]
+        let obj = {}
+        for(j=0;j<s.length;j++){
+            let newArr = s[j]
+            obj[newArr[0]]=newArr[1]
+            
+        }
+        tranformEmployeeList[i]=obj
+    }
+    
+    
+    return tranformEmployeeList;
+   }
+
+console.log(transformEmployeeData(array))
+
+
+</script>
+</html>
