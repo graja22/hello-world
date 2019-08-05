@@ -1,7 +1,7 @@
 [a,b]=list(map(int,input().split()))
 
  
-for num in range(a,b + 1):
+for num in range(a,b):
    sum = 0
  
 
