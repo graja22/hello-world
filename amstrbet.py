@@ -12,4 +12,4 @@ for num in range(a,b):
        c//= 10
  
    if num == sum:
-       print(num, end=" ")
+       print(num,end=" ")
