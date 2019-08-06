@@ -1,4 +1,4 @@
 val=[]
 a=int(input())
-val = input().split(" ")
+val = map(int,input().split())
 print(max(val))
